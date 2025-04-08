@@ -1,5 +1,10 @@
 .mainbox {
-  /**/
+  width: 800px;
+  border: 2px solid black;
+  border-radius: 24px;
+  padding: 25px;
+  margin: auto;
+  background-color: #cdf4f0;
 }
 
 .img {
@@ -7,11 +12,45 @@
   width: 88px;
 }
 
+.title-box {
+  display: flex;
+  flex-direction: row;
+}
+
 .title-box-text {
-  /**/
+  margin-left: 25px;
+}
+
+.job-text {
+  color: #3182f6;
+  &:hover {
+    color: black;
+  }
+}
+
+.section-title {
+  border-bottom: 1px solid black;
+}
+
+.float {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sns img {
+  margin: 5px;
 }
 
 .img-sns {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  text-align: center;
 }
